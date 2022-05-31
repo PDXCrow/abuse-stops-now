@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Mukta&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&family=Mukta&display=swap");
 body {
   padding: 0;
   margin: 0;
   background-color: #EEE8D9;
-  font-family: 'Mukta', sans-serif;
+  font-family: "Mukta", sans-serif;
   color: #585F37;
   line-height: 1.2;
 }
 
 .headline {
-  font-family: 'Francois One', sans-serif;
+  font-family: "Francois One", sans-serif;
 }
 
 .important {
@@ -30,6 +29,7 @@ body {
 }
 
 .content {
+  display: grid;
   margin: 60px 20px;
   max-width: 75%;
 }
@@ -38,3 +38,22 @@ body {
   font-size: 20px;
   font-weight: 800px;
 }
+
+.get-away {
+  display: grid;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 80px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.get-away p {
+  margin: 0;
+  justify-self: center;
+  align-self: center;
+  font-size: 36px;
+}
+
+/*# sourceMappingURL=styles.css.map */

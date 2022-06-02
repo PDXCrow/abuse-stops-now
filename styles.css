@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: #EEE8D9;
+  font-size: 20px;
   font-family: "Mukta", sans-serif;
   color: #585F37;
   line-height: 1.2;
@@ -21,11 +22,16 @@ body {
   height: 100px;
   background: url(img/bg_header.jpg);
 }
-
 .header-headline {
   color: white;
   font-size: 30px;
   padding: 30px 0 0 20px;
+}
+@media only screen and (max-width: 450px) {
+  .header-headline {
+    text-align: center;
+    padding: 30px 0 0;
+  }
 }
 
 .content {
@@ -35,8 +41,40 @@ body {
 }
 
 .intro-text {
-  font-size: 20px;
   font-weight: 800px;
+}
+
+.start {
+  margin: 40px 0 0;
+  font-weight: 800;
+}
+
+.question {
+  margin: 40px 0 0;
+  padding: 20px;
+  font-weight: 800;
+  background-color: #efeeeb;
+  border: 3px solid #585F37;
+  border-radius: 20px;
+  width: fit-content;
+}
+
+input[type=radio] {
+  margin: 10px 10px 0 10px;
+}
+
+.answer {
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.button {
+  margin: 20px 0 0;
+  height: 30px;
+  width: 150px;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .get-away {
@@ -54,6 +92,10 @@ body {
   justify-self: center;
   align-self: center;
   font-size: 36px;
+}
+
+.hidden {
+  display: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

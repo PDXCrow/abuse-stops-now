@@ -77,9 +77,13 @@ input[type=radio] {
   cursor: pointer;
 }
 
+.footer {
+  min-height: 100px;
+}
+
 .get-away {
   display: grid;
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   width: 100%;
   height: 80px;

@@ -59,6 +59,17 @@ body {
   width: fit-content;
 }
 
+.result {
+  margin: 20px 0 0;
+  padding: 20px;
+  font-weight: 800;
+  background-color: #874656;
+  color: #efeeeb;
+  border: 3px solid #585F37;
+  border-radius: 20px;
+  width: fit-content;
+}
+
 input[type=radio] {
   margin: 10px 10px 0 10px;
 }
